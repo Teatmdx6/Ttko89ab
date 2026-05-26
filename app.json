@@ -1,0 +1,21 @@
+https://arslan-apis.vercel.app/
+  "name": "NORA-MD",
+  "description": "NORA-MD WhatsApp bot made by ArslanMD official",
+  "logo": "https://o.uguu.se/YsGvSyfy.png",
+  "keywords": ["bot","NORA-MD","Arslan-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the NORA-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
